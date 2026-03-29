@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyanshu Dubey | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent: #10b981;
+            --text: #f8fafc;
+            --text-dim: #94a3b8;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Inter', -apple-system, sans-serif; 
+            background-color: var(--bg-color); 
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            height: 45vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80');
+            background-size: cover;
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+        }
+
+        header h1 { font-size: 2.8rem; margin-bottom: 8px; }
+        header p { color: var(--accent); font-weight: bold; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; }
+
+        .container { max-width: 850px; margin: -40px auto 50px; padding: 0 20px; }
+
+        section { 
+            background: var(--card-bg); 
+            padding: 35px; 
+            margin-bottom: 25px; 
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        }
+
+        h2 { font-size: 1.4rem; margin-bottom: 20px; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; }
+
+        /* Skills Tags */
+        .skills-wrap { display: flex; flex-wrap: wrap; gap: 10px; }
+        .tag { 
+            border: 1px solid var(--accent); 
+            padding: 8px 18px; 
+            border-radius: 6px; 
+            font-weight: 600;
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--accent);
+        }
+
+        /* Project Card */
+        .project-card {
+            background: rgba(255,255,255,0.03);
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #334155;
+            transition: 0.3s ease;
+        }
+        .project-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+        .project-card h3 { margin-bottom: 10px; font-size: 1.2rem; }
+        .project-card p { color: var(--text-dim); margin-bottom: 20px; }
+
+        .btn {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: bold;
+            border: 1px solid var(--accent);
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: 0.2s;
+        }
+        .btn:hover { background: var(--accent); color: var(--bg-color); }
+
+        footer { text-align: center; color: #475569; padding: 30px; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Divyanshu Dubey</h1>
+        <p>BCA Student | Developer</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Profile</h2>
+            <p>I am a 19-year-old BCA student at Assam Down Town University (2nd Semester). I enjoy building functional web tools and participating in weekly coding contests. My goal is to master core programming languages and build efficient software solutions.</p>
+        </section>
+
+        <section>
+            <h2>Technical Stack</h2>
+            <div class="skills-wrap">
+                <div class="tag">C</div>
+                <div class="tag">Java</div>
+                <div class="tag">Python</div>
+                <div class="tag">HTML</div>
+                <div class="tag">CSS</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="project-card">
+                <h3>Web Calculator</h3>
+                <p>A mobile-responsive arithmetic application built with JavaScript logic and CSS styling. Features a clean dark-mode interface.</p>
+                <a href="https://divyanshudubey10.github.io/Web-Calculator-/" class="btn" target="_blank">Launch Project →</a>
+            </div>
+        </section>
+
+        <section style="text-align: center;">
+            <h2>Contact</h2>
+            <p>Guwahati, Assam, India</p>
+            <p style="margin-top: 10px;">
+                <a href="mailto:divyanshudubeyme@gmail.com" style="color: var(--accent); text-decoration: none; font-weight: bold;">
+                    divyanshudubeyme@gmail.com
+                </a>
+            </p>
+            <p style="margin-top: 5px;">
+                <a href="https://github.com/DivyanshuDubey10" target="_blank" style="color: var(--text-dim); text-decoration: none; font-size: 0.9rem;">
+                    github.com/DivyanshuDubey10
+                </a>
+            </p>
+        </section>
+
+        <footer>
+            &copy; 2026 Divyanshu Dubey.
+        </footer>
+    </div>
+
+</body>
+</html>
