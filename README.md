@@ -3,8 +3,7 @@
 A modern, responsive, and professional portfolio website built to showcase my technical skills, projects, and academic journey as a BCA student.
 
 ## 🌐 Live Demo
-You can view the live website here: 
-("https://divyanshudubey10.github.io/Portfolio/")
+You can view the live website here: [https://divyanshudubey10.github.io/Portfolio/](https://divyanshudubey10.github.io/Portfolio/)
 ## 🛠️ Tech Stack
 * **Languages:** C, Python, Java (Basics)
 * **Web Development:** HTML5, CSS3, JavaScript
